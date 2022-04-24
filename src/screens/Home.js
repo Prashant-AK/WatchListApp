@@ -52,8 +52,8 @@ const Home = ({navigation, markComplete, removeSeason, listState}) => {
                   </Button>
                 </Left>
                 <Body>
-                  <Title style={styles.seasonName}>{season.name}</Title>2
-                  <Text note> {season.totalNoSeason} season to watch </Text>
+                  <Title style={styles.seasonName}>{season.name}</Title>
+                  <Text> {season.totalNoSeason} season to watch </Text>
                 </Body>
                 <Right>
                   <CheckBox
